@@ -12,5 +12,5 @@
  * 11. import GoogleauthProvider and creat a new provider
  * 12. use signInwithPopUp and pass auth and provider
  * 13. activate sign-in method (google, facebook, github, etc.)
- * 14. 
+ * 14. [vite]: change 127.0.0.1 to localhost
  */
