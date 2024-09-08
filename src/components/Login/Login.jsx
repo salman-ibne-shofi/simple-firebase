@@ -22,7 +22,7 @@ const Login = () => {
 				setUser(loggedInUser);
 			})
 			.catch((error) => {
-				console.log(error);
+				console.error("Error during Google Sign-In:", error);
 			});
 	};
 
@@ -34,7 +34,7 @@ const Login = () => {
 				setUser(loggedUser);
 			})
 			.catch((error) => {
-				console.log(error);
+				console.error("Error during GitHub Sign-In:", error);
 			});
 	};
 
